@@ -1,0 +1,53 @@
+header{
+    grid-area: header;
+    background-color: $color-nav-footer;
+    height: 120px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    nav{    
+        display: flex;
+        justify-content: space-between;
+        max-width: 992px;
+        margin: 0 auto;
+        div{
+            a {
+                color: white;
+                text-decoration: none;
+                font-size: 160px;
+                padding: 0px 10px;
+                line-height: 120px;
+            }
+        }  
+        div{
+            button{
+            color:white;
+            background: none;
+            border: none;
+            font-size: 100px;
+            padding: 0 20px;
+            line-height: 60px;
+            display: none;
+        }
+        }
+            ul{
+                display: flex;
+                margin-right: 20px;
+                list-style: none;
+                li{
+                    font-size: 33px;
+                    margin: 0 15px;
+                    line-height: 60px;
+                    color: white;
+                    text-transform: uppercase;
+                    width: max-content;
+                    a{
+                        color: white;
+                        text-decoration: none;
+                    }
+                }
+            }
+        
+    }
+}

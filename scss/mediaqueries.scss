@@ -1,0 +1,47 @@
+@media screen and (max-width: 768px){
+    body{
+        padding-top: 70px;
+    }
+    .header{
+        height: 120px;
+    }
+    .nav__ul{
+        flex-direction: column;
+        align-items: center;
+        margin-right: 20px;
+        background-color: rgb(74, 139, 172);
+        position: fixed;
+        left: 0;
+        top: 120px;
+        width: 100%;
+        padding: 20px 0;
+
+        height: calc(100% - 120px);
+        overflow-y: auto;
+        
+        left: 100%;
+        transition: left 0.3s;
+    }
+    .nav__li{
+        line-height: 90px;
+        
+    }
+    .navbar{
+        display: block;
+    }
+    .nav__ul_visible{
+        left: 0;
+    }
+    .container .urban-style{
+        grid-column: 1/-1;
+    }
+    .container .novedades{
+        grid-column: 1/-1;
+    }
+    .container .destacados{
+        grid-column: 1/-1;
+    }
+    .container .footer{
+        grid-column: 1/-1;
+    }
+}
